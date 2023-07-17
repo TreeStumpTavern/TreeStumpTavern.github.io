@@ -60,7 +60,6 @@ const pgData = [
             We fought them with steel, and we fought them with song,<br>The forces of evil did not persist long.</p>
             <p>Yet something did happen, that darkened the skies,<br>The air burst with thunder and loud distant cries,<br>
             We witnessed a sight most horrific and weird,<br>The city of Elturel had, at once, disappeared.</p></em>
-            <br>- Stumpie
             `
     },
     {
@@ -76,7 +75,6 @@ const pgData = [
             Here the Cult of the Dead Three had conspired to sell,<br>Baldur's Gate, as Elturel once, to an Archduke of hell!</p>
             <p>We procured a strange box, of infernal design,<br>That contained a scorched contract with the fine dotted line,<br>
             "Elturel shall be guarded for a century's time,<br>After which Elturel, and its folk, shall be mine"</p></em>
-            <br>- Stumpie
             `
     },
 ];
