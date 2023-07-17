@@ -54,7 +54,13 @@ const pgData = [
         altText: "This page is being reworked and will be visible soon!", //the alt text (mouse over text) for this particular comic. put nothing inbetween the quotes for no alt text
         imageFiles: 1, //how many image files this page is split into
         authorNotes: `
-            <p>Stumpie is working really hard on his poetry right here!</p>
+            <em><p>The city of Elturel had called for aid,<br>To lend them your bow, your staff, and your blade<br>
+            Cultists were spotted in the forests of the land,<br>Their symbols: the blood drop, the skull, and the hand.</p>
+            <p>So did we arrive to bolster the guard,<br>The paladin, the ranger, the druid, the bard,<br>
+            We fought them with steel, and we fought them with song,<br>The forces of evil did not persist long.</p>
+            <p>Yet something did happen, that darkened the skies,<br>The air burst with thunder and loud distant cries,<br>
+            We witnessed a sight most horrific and weird,<br>The city of Elturel had, at once, disappeared.</p></em>
+            <br>- Stumpie
             `
     },
     {
@@ -64,7 +70,13 @@ const pgData = [
         altText: "The party arrive at Baldur's Gate, infiltrate the cultist hideout, and find the Infernal Box",
         imageFiles: 1,
         authorNotes: `
-            <p>Coming soon as well!</p>
+            <em><p>We gathered the refugees and headed out west,<br>To save Elturel had become our new quest!<br>
+            The answers would surely be found with great haste,<br>In the city of schemes, and of crime, Baldur's Gate.</p>
+            <p>We followed and traced through the rumours of cults,<br>In a well guarded bathhouse they yielded results,<br>
+            Here the Cult of the Dead Three had conspired to sell,<br>Baldur's Gate, as Elturel once, to an Archduke of hell!</p>
+            <p>We procured a strange box, of infernal design,<br>That contained a scorched contract with the fine dotted line,<br>
+            "Elturel shall be guarded for a century's time,<br>After which Elturel, and its folk, shall be mine"</p></em>
+            <br>- Stumpie
             `
     },
 ];
