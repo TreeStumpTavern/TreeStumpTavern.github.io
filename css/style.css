@@ -14,8 +14,9 @@ body {
 
 /* header image */
 header img {
-  width: 500px;
+  width: 500px; /* will be 900px later */
   max-width: 98%;
+  /* height: 150px; */
 }
 
 /* clearfix hack to prevent image overflow. check out the W3Schools page on it. */
