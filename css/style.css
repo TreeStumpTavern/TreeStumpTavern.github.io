@@ -9,7 +9,7 @@ body, div, main, section, article {
 
 /* universal background color */
 body {
-  background-color: #3b231d; 
+  background-color: black; 
 }
 
 /* header image */
@@ -31,7 +31,7 @@ header img {
 #showComic, header, h1, h2, h3, h4, h5 {
   font-family: 'IM Fell English', cursive;
   font-size: 40px;
-  color: #c98f82;
+  color: white;
 }
 
 /* body font */
@@ -47,8 +47,8 @@ header img {
 .subPage {
   width: 1000px;
   max-width: 98%;
-  background-color: #3b231d;
-  color: #c98f82;
+  background-color: black;
+  color: white;
   margin: auto;
   margin-bottom: 10px;
   padding: 0px 12px 12px;
@@ -79,12 +79,12 @@ header img {
 
 /* link colors */
 a {
-      color: #c98f82;
+      color: white;
       text-decoration: none;
     }
 
 a:hover {
-      color: #c98f82;
+      color: white;
     }
 
 /* HEADER */
@@ -118,8 +118,8 @@ header #nav {
 
 /* style author notes */
 #authorNotes {
-  background-color:#3b231d;
-  color: #c98f82;
+  background-color:black;
+  color: white;
   margin: auto;
   padding: 3px;
   padding-top: 0px;
@@ -174,8 +174,12 @@ header #nav {
 
 /* highlight a table row and make pointer into hand when moused over */
 .archiveRow:hover {
-  background-color: #DA5437;
+  background-color: #DA5437;z
   cursor: pointer;
+}
+
+.main a {
+  color: #DA5437;
 }
 
 /* FOOTER */
@@ -193,11 +197,11 @@ footer p {
 }
 
 footer a {
-  color: #c8d32b
+  color: #c8d32b;
 }
 
 footer a:hover {
-  color: #868d26
+  color: #868d26;
 }
 
 /* take away margins from the edges of the screen */
