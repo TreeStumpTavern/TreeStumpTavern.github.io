@@ -14,7 +14,7 @@ body {
 
 /* header image */
 header img {
-  width: 500px; /* will be 900px later */
+  width: 900px; /* will be 900px later */
   max-width: 98%;
   /* height: 150px; */
 }
