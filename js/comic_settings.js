@@ -11,7 +11,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 2; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
+const maxpg = 3; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
 //YOU MUST UPDATE THIS NUMBER EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -75,6 +75,21 @@ const pgData = [
             Here the Cult of the Dead Three had conspired to sell,<br>Baldur's Gate, as Elturel once, to an Archduke of hell!</p>
             <p>We procured a strange box, of infernal design,<br>That contained a scorched contract with the fine dotted line,<br>
             "Elturel shall be guarded for a century's time,<br>After which Elturel, and its folk, shall be mine"</p></em>
+            `
+    },
+    {
+        pgNum: 3,
+        title: "Thwarted Assassination",
+        date: writeDate(2023, 10, 1),
+        altText: "The party stop an assassination plot and uncover the leadership of the cultists.",
+        imageFiles: 1,
+        authorNotes: `
+            <em><p>We took it upon us to thwart the dark plot,<br>And struck at the iron while the iron was hot,<br>
+            And by struck I do mean the swing and thrust of our swords,<br>At the henchmen and servants of evil Dead Gods.</p>
+            <p>Yet the chaos and mayhem did not go unnoticed,<br>The cultists, now desperate, became much more focused,<br>
+            Yet Coyote the Paladin, and Suki the Ranger,<br>Protected a noble duke of the city from danger!</p>
+            <p>The foiled assassination put our names on their lists,<br>For the cultists exclaimed them with tightly clenched fists,<br>
+            Thus their leader, Duke Thalamra, put a price on our heads,<br>Pushing us to make sure to put an end to her threats.</p></em>
             `
     },
 ];

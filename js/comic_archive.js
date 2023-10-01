@@ -16,7 +16,7 @@
 
 // writeArchive("lastfirst", 1, maxpg, 0, true,true);
 
-writeArchive("chapter1",1,2,-1,false,true) //writeArchive is for listing a RANGE of pages, take advantage of this by using headers to divide them into chapters or by mont
+writeArchive("chapter1",1,3,-1,false,true) //writeArchive is for listing a RANGE of pages, take advantage of this by using headers to divide them into chapters or by mont
 //below this point is stuff you don't really need to pay attention to if you're not super familiar with JS 
 
 function writeArchive(divClass, min, max, reverseOrder, useThumbs,useNums) {
