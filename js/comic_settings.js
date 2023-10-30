@@ -99,8 +99,8 @@ const pgData = [
         altText: "The party infiltrate the cultist lair, face Thalamra Vanthampur, and commence their voyage to Avernus.",
         imageFiles: 1,
         authorNotes: `
-            <em><p>Beneat the estate of the treacherous duke,<br>We found out the truth that no lie could rebuke,<br>
-            The cultists that damned Elturel into Hell,<br>Had done so in service to the fiend Zariel.</p>
+            <em><p>Beneath the estate of the treacherous duke,<br>We found out the truth that no lie could rebuke,<br>
+            The cultists that damned Elturel into Hell,<br>Had done so to serve the archfiend Zariel.</p>
             <p>Thalamra made sure to confront us head on,<br>The battle was fierce, our hope nearly gone,<br>
             Empowered by pacts and magic infernal,<br>She fought to ensure that she'd govern eternal.</p>
             <p>Yet best her we did, or rather, did I,<br>"I'll see you in Hell!", she screamed her last cry,<br>
