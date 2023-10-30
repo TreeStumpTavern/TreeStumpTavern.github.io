@@ -11,7 +11,7 @@ let pg = Number(findGetParameter("pg")); //make "pg" mean the current page numbe
 ////////////////////////
 
 //REALLY IMPORTANT ONES
-const maxpg = 3; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
+const maxpg = 4; //the current number of pages your comic has in total. this DOESNT necessarily mean number of IMAGE FILES as it doesn't count pages split into multiple files. 
 //YOU MUST UPDATE THIS NUMBER EVERY TIME YOU ADD A NEW PAGE or else it wont display the most recent page
 
 // COMIC PAGE SETTINGS
@@ -90,6 +90,21 @@ const pgData = [
             Yet Coyote the Paladin, and Suki the Ranger,<br>Protected a noble duke of the city from danger!</p>
             <p>The foiled assassination put our names on their lists,<br>For the cultists exclaimed them with tightly clenched fists,<br>
             Thus their leader, Duke Thalamra, put a price on our heads,<br>Pushing us to make sure to put an end to her threats.</p></em>
+            `
+    },
+    {
+        pgNum: 4,
+        title: "The Cult of Zariel",
+        date: writeDate(2023, 10, 1),
+        altText: "The party infiltrate the cultist lair, face Thalamra Vanthampur, and commence their voyage to Avernus.",
+        imageFiles: 1,
+        authorNotes: `
+            <em><p>Beneat the estate of the treacherous duke,<br>We found out the truth that no lie could rebuke,<br>
+            The cultists that damned Elturel into Hell,<br>Had done so in service to the fiend Zariel.</p>
+            <p>Thalamra made sure to confront us head on,<br>The battle was fierce, our hope nearly gone,<br>
+            Empowered by pacts and magic infernal,<br>She fought to ensure that she'd govern eternal.</p>
+            <p>Yet best her we did, or rather, did I,<br>"I'll see you in Hell!", she screamed her last cry,<br>
+            Our goal was now certain, as you can foretell,<br>Thus we conjured a portal to hell-bound Elturel.</p></em>
             `
     },
 ];
